@@ -1,0 +1,247 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* Headings*/
+.big-heading {
+  font-size: 7rem;
+  padding-top: 20%;
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
+
+.h1-heading {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 4rem;
+  color: white;
+}
+
+.h2-heading {
+  font-size: 1.5rem;
+}
+
+.p-heading {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* IMAGES*/
+
+.img-style{
+  width: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #3bb4c1;
+  border-width: 0.5rem;
+
+}
+
+/* containers*/
+.container-fluid {
+  padding: 5% 13% 5%;
+}
+
+/******TITLE******/
+#title {
+  background-color: #3bb4c1;
+}
+
+/* Navigation Bar*/
+.navbar {
+  font-family: 'Indie Flower', sans-serif;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: #048998;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 3px;
+  color: #048998;
+}
+
+.navbar-dark .navbar-brand {
+  color: #048998;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #048998;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #3bb4c1;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #3bb4c1;
+}
+
+/* Image Title*/
+.img-manl {
+  width: 100%;
+  position: absolute;
+  right: 15px;
+}
+
+.img-manr {
+  width: 100%;
+  position: absolute;
+  left: 15px;
+}
+
+/******ABOUT ME SECTION******/
+#about-me {
+  background-color: #048998;
+}
+
+.image-veronica {
+  margin-top: 3%;
+  border-radius: 50%;
+  margin-bottom: 2%;
+  width: 20%;
+  border-style: solid;
+  border-color: #3bb4c1;
+  border-width: 0.5rem;
+}
+
+/*****MY JEWEWLS SECTION******/
+#my-jewels {
+  background-color: #e9e4e6;
+}
+
+.h2-my-jewels {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 4rem;
+  color: #048998;
+  padding-bottom: 5%;
+}
+
+.h3-myjewels {
+  padding-bottom: 2%;
+}
+
+.p-sottotesti {
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 7%;
+  text-align: justify;
+}
+
+.image-ciond {
+  width: 30%;
+  position: relative;
+  top: 10px;
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #048998;
+  border-width: 0.5rem;
+}
+
+.image-jewels {
+  width: 30%;
+  position: relative;
+  top: 10px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #048998;
+  border-width: 0.5rem;
+}
+
+.skill-row {}
+
+.img-manrjew {
+  position: absolute;
+  width: 100%;
+  left: 15px;
+  bottom: 400px;
+}
+
+.img-manljew {
+  position: absolute;
+  width: 100%;
+  right: 15px;
+  top: 296px;
+}
+
+/*****REVIEWS CAROUSEL SECTION******/
+
+#my-rewiew {
+  background-color: #f6f5f5;
+}
+
+
+
+.testimonial-text{
+    font-family: 'Indie Flower', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.carousel-control-next-icon{
+
+      background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e);
+
+}
+
+/*****MARKET SECTION******/
+
+#pricing{
+   background-color: #048998;
+
+}
+
+.h3-market{
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 2.5rem;
+}
+
+.price-text{
+  font-size: 1.7rem;
+  color: #3bb4c1;
+}
+
+.card-header{
+  background-color: #3bb4c1;
+}
+
+.img-or{
+  border-color: #e9e4e6;
+  margin-bottom: 10px;
+}
+
+/*****ContactsN******/
+
+#contacts{
+  background-color: #3bb4c1;
+}
+
+.icon-footer{
+  font-size: 4rem;
+  color: #048998;
+  padding: 2% 6%;
+  padding-bottom: 5%;
+}
+
+.icon-footer:hover{
+    color: #fff;
+}
